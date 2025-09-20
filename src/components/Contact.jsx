@@ -211,14 +211,16 @@ const Contact = () => {
               <p className="text-gray-600 mb-6">
                 Descarga mi checklist de 25 puntos para optimizar tu sitio web y generar más ventas.
               </p>
-              <motion.button
+              <motion.a
+                href="/checklist-optimizacion-web.txt"
+                download="checklist-optimizacion-web-cynthia-alva.txt"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center space-x-2 border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-full font-semibold hover:bg-purple-600 hover:text-white transition-all"
               >
                 <SafeIcon icon={FiDownload} className="w-5 h-5" />
                 <span>Descargar checklist</span>
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
         </div>
