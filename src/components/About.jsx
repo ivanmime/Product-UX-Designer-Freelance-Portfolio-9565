@@ -82,11 +82,17 @@ const About = () => {
             className="relative"
           >
             <div className="relative z-10">
-              <img 
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=500&h=600&fit=crop&crop=face" 
-                alt="Cynthia - Especialista en Productos Digitales" 
-                className="w-full max-w-md mx-auto rounded-2xl shadow-2xl" 
-              />
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="relative inline-block mx-auto"
+              >
+                <img
+                  src="https://gonutro.com/wp-content/uploads/2025/09/O2.png"
+                  alt="Cynthia - Especialista en Productos Digitales"
+                  className="w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-white"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600/20 to-green-500/20"></div>
+              </motion.div>
             </div>
             
             {/* Background Elements */}
