@@ -40,7 +40,9 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <motion.a
-                href="#contacto"
+                href="https://calendar.app.google/VHmgJrSrsmdK79x8A"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-600 to-green-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all"
@@ -79,33 +81,60 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8">
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <SafeIcon icon={FiTarget} className="w-6 h-6 text-purple-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Auditoría Web</h3>
-                    <p className="text-gray-600">Diagnóstico en 5 días</p>
-                  </div>
+            <div className="relative z-10">
+              {/* Profile Photo */}
+              <div className="bg-white rounded-2xl shadow-2xl p-8 mb-6">
+                <div className="text-center">
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    className="relative inline-block mb-6"
+                  >
+                    <img
+                      src="https://gonutro.com/wp-content/uploads/2025/09/O2.png"
+                      alt="Cynthia - Especialista en Productos Digitales"
+                      className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white"
+                    />
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600/20 to-green-500/20"></div>
+                  </motion.div>
+
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Cynthia Alva</h3>
+                  <p className="text-purple-600 font-medium mb-4">Product UX Designer</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Especialista en crear productos digitales que generan resultados reales.
+                    Ayudo a empresas a vender más online con estrategias probadas.
+                  </p>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                    <SafeIcon icon={FiZap} className="w-6 h-6 text-green-600" />
+              </div>
+
+              {/* Services Cards */}
+              <div className="bg-white rounded-2xl shadow-2xl p-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-4">
+                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                      <SafeIcon icon={FiTarget} className="w-5 h-5 text-purple-600" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Auditoría Web</h4>
+                      <p className="text-gray-600 text-sm">Diagnóstico en 5 días</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Producto Digital</h3>
-                    <p className="text-gray-600">De idea a mercado</p>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                      <SafeIcon icon={FiZap} className="w-5 h-5 text-green-600" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Producto Digital</h4>
+                      <p className="text-gray-600 text-sm">De idea a mercado</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <SafeIcon icon={FiTrendingUp} className="w-6 h-6 text-purple-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Más Ventas</h3>
-                    <p className="text-gray-600">Optimización continua</p>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                      <SafeIcon icon={FiTrendingUp} className="w-5 h-5 text-purple-600" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Más Ventas</h4>
+                      <p className="text-gray-600 text-sm">Optimización continua</p>
+                    </div>
                   </div>
                 </div>
               </div>
