@@ -6,7 +6,7 @@ import SafeIcon from '../common/SafeIcon';
 const { FiMessageCircle } = FiIcons;
 
 const FloatingWhatsApp = () => {
-  const phoneNumber = "+51987654321"; // Replace with actual WhatsApp number
+  const phoneNumber = "+51986783574"; // Replace with actual WhatsApp number
   const message = "Hola Cynthia, me interesa conocer más sobre tus servicios de UX Design.";
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
