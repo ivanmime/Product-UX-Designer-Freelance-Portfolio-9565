@@ -54,7 +54,9 @@ const Header = () => {
               </motion.a>
             ))}
             <motion.a
-              href="#contacto"
+              href="https://calendar.app.google/VHmgJrSrsmdK79x8A"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-purple-600 to-green-500 text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all"
@@ -91,7 +93,9 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="#contacto"
+              href="https://calendar.app.google/VHmgJrSrsmdK79x8A"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
               className="inline-block mt-4 bg-gradient-to-r from-purple-600 to-green-500 text-white px-6 py-2 rounded-full font-medium"
             >
