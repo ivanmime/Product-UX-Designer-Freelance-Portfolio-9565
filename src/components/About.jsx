@@ -89,9 +89,8 @@ const About = () => {
                 <img
                   src="https://gonutro.com/wp-content/uploads/2025/09/O2.png"
                   alt="Cynthia - Especialista en Productos Digitales"
-                  className="w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-white"
+                  className="w-80 h-auto object-cover shadow-2xl rounded-2xl"
                 />
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600/20 to-green-500/20"></div>
               </motion.div>
             </div>
             
