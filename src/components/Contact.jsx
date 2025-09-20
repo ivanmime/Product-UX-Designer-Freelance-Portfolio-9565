@@ -164,14 +164,14 @@ const Contact = () => {
               </h3>
               <div className="space-y-4">
                 <a
-                  href="mailto:cynthia@uxdesign.com"
+                  href="mailto:calvarezg54@gmail.com"
                   className="flex items-center space-x-3 text-gray-700 hover:text-purple-600 transition-colors"
                 >
                   <SafeIcon icon={FiMail} className="w-5 h-5" />
-                  <span>cynthia@uxdesign.com</span>
+                  <span>calvarezg54@gmail.com</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/cynthia-ux"
+                  href="https://www.linkedin.com/in/cynthia-alva-ga/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-gray-700 hover:text-blue-600 transition-colors"
@@ -191,7 +191,7 @@ const Contact = () => {
                 15 minutos para conocer tu proyecto y ver cómo puedo ayudarte. Sin compromiso.
               </p>
               <motion.a
-                href="https://calendly.com/cynthia-ux"
+                href="https://calendar.app.google/VHmgJrSrsmdK79x8A"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
