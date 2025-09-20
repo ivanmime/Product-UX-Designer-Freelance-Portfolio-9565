@@ -84,25 +84,27 @@ const Hero = () => {
             <div className="relative z-10">
               {/* Profile Photo */}
               <div className="bg-white rounded-2xl shadow-2xl p-8 mb-6">
-                <div className="text-center">
+                <div className="flex items-center space-x-6">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="relative inline-block mb-6"
+                    className="relative flex-shrink-0"
                   >
                     <img
                       src="https://gonutro.com/wp-content/uploads/2025/09/O2.png"
                       alt="Cynthia - Especialista en Productos Digitales"
-                      className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white"
+                      className="w-32 h-32 rounded-full object-cover shadow-lg border-4 border-white"
                     />
                     <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600/20 to-green-500/20"></div>
                   </motion.div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Cynthia Alva</h3>
-                  <p className="text-purple-600 font-medium mb-4">Product UX Designer</p>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    Especialista en crear productos digitales que generan resultados reales.
-                    Ayudo a empresas a vender más online con estrategias probadas.
-                  </p>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Cynthia Alva</h3>
+                    <p className="text-purple-600 font-medium mb-3">Product UX Designer</p>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      Especialista en crear productos digitales que generan resultados reales.
+                      Ayudo a empresas a vender más online con estrategias probadas.
+                    </p>
+                  </div>
                 </div>
               </div>
 
