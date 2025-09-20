@@ -79,12 +79,12 @@ const About = () => {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative flex justify-center items-center"
           >
             <div className="relative z-10">
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="relative inline-block mx-auto"
+                className="relative"
               >
                 <img
                   src="https://gonutro.com/wp-content/uploads/2025/09/O2.png"
